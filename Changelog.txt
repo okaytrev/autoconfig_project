@@ -1,0 +1,51 @@
+Program developed by: Robert Heck
+Company: FWI
+Todays Date:5/16/18
+
+Current Version: .95
+Previous Version: .945
+
+Special Credits: 
+Joshua Silverman
+Trevar Hupf
+
+.95 Changes made to BurgerWithFWIs.ps1 
+*Added new unpin tiles funtion
+*Added more apps to be uninstalled
+*removed prompts and reboot
+*removed inactive funtions
+*added reboot
+*added execution policy setting
+
+.95 Changes made to RunAsAdmin.cmd
+*Now launches splash screen for config
+*Sets correct power settings on first phase
+*Runs autologin
+*Uses .net 4.6.2 for Windows 10
+*added 4th check, PC will now reboot 3 times vs 2
+*added self destruct
+*removed text box about CP install
+*disabled IE 11 popup on first start 
+*added check in place to ensure program is run as admin
+*added exe to disable win 10 security and maintenance options
+*added creation of fwiplayer account and password
+
+
+.95 Changes made to StandAloneConfig.ahk
+*Packages all Autologon files
+*Creates autologon directory
+*Packages .net 4.6.2 for win 10 use
+*added new PS script to check for error log
+*packaging reg file needed to disable IE11 popup
+
+.95 Changes made to errorlog.ps1
+*Added correct path to self destruct 
+*added windows activation check
+*added required assembly type for msg box
+
+*************************************************
+.945 Changes Made to BurgerWithFWIs.ps1 
+*Modified method of applying Wallpaper to be compatible with Windows 7
+*Added Reg change for screen dimming, now set to "Never" if applicable
+*Changed name of log file for errors (was InstallLog.txt, now ErrorLog.txt)
+*Added Pop up boxes to let the user know if configuration was successful or not
